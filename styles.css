@@ -1,0 +1,36 @@
+/* 
+      Final Project
+	  Author:(Team #1)Zach Karr, Jenny Beezley
+	  Date: 7/19/2021
+   
+      Filename: styles.css
+      Supporting Files:
+*/
+
+table {
+	font-size: 14px;
+	border-collapse: collapse;
+	border: 10px outset rgb(158, 15, 5);
+	margin: 0px 15px 15px 15px;
+	width: 770px;
+	float: right;
+	
+	
+}
+
+
+th, td {
+	border: 1px solid black;
+	vertical-align: top;
+	padding: 5px;
+	color: rgb(214, 138, 15);
+	text-align: center;
+}
+
+
+
+.feeColumns {
+	background-color: rgb(214, 138, 15);
+}
+
+

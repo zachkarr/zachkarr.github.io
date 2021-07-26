@@ -1,0 +1,233 @@
+/* 
+   Final Project
+   Author:(Team #1)Zach Karr, Jenny Beezley
+   Date: 7/19/2021
+   Filename:  main.css
+   Supporting Files:
+   
+*/
+
+/* Display HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+	display: block;
+}
+
+/* Set the default page element styles */
+body {
+	margin: 0px auto;
+	width: 800px;
+	background-color: rgb(22, 19, 48); 
+	background-image: url("https://www.atomiccowboystl.com/wp-content/uploads/2017/11/bgroundI-1-905x509.jpg");
+    background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+	
+}
+
+body * {
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	font-size: 100%;
+	background-color: rgb(22, 19, 48); 
+	font-weight: inherit; 
+	line-height: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+	
+	
+}
+
+/* Navigation links */
+nav ul {
+	list-style: none;
+	margin-top: 2px;
+}
+
+nav li {
+	float: left;
+	width: 19%;
+	text-align: center;
+	border: 1px solid rgb(36, 36, 41);
+	margin: 6px 2px 15px 2px;
+}
+
+nav li a {
+	display: block;
+	color: rgb(214, 138, 15);
+	background-color: #4c4b54;
+}
+
+nav li a:hover {
+	color: rgb(219, 164, 11);
+	background-color: rgb(10, 10, 10);
+}
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-decoration: wavy;
+	
+}
+
+/* h1, h2, P */
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline overline;
+	text-decoration-color: rgb(163, 25, 7);
+	letter-spacing: 1px; 
+	text-align: center;
+	text-shadow: 1px 1px black;
+	color: rgb(214, 138, 15);
+	margin-top: 15px;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	color: rgb(158, 15, 5);
+	margin-top: 15px;
+}
+
+p {
+	font-size: 14px;
+	margin: 7px;
+	color: rgb(219, 215, 215);
+	text-align: center;
+	text-shadow: 1px 1px black;
+}
+
+#main {
+	border-top: 2px solid rgb(68, 76, 169);
+}
+
+#main ul {
+	list-style-type: circle;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#main ul li {
+	margin-bottom: 10px;
+	color: rgb(121, 121, 140);
+	text-align: center;
+}
+
+#main ul li strong {
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+header {
+    margin: 0px auto;
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+	
+}
+footer {
+	border-top: 2px solid rgb(68, 76, 169);
+	clear: both;
+	float: left;
+	width: 100%;
+	color: rgb(214, 138, 15);
+}
+
+address {
+	font-style: normal;
+	font-size: 11px;
+	text-align: center;
+	padding: 5px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .75}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .75}
+  to {opacity: 1}
+}
+
