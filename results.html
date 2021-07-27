@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!-- 
+      
+	  Final Project
+	  Author:(Team #1)Zach Karr, Jenny Beezley
+	  Date: 7/19/2021
+	  
+	  Filename:   Contact Us.htm
+	  Supporting files: AtomicCowboyLogo.png, main.css, fstyle.css, formsubmit.js
+	  
+	-->
+	
+	   <meta charset="UTF-8"/>
+	   
+	   <title>Contact Us</title>
+	   <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css"/>
+	   <link href="Assets/Styles/fstyle.css" rel="stylesheet" type="text/css"/>
+	   <script src="Assets/JavaScripts/modernizr.custom.40753.js"></script>
+	   
+	</head>
+	
+	<body>
+	
+	   <header>
+	      	<img src="Assets/Images/AtomicCowboyLogo.png" alt="Atomic Cowboy" width="600" height="400" /> 
+			<p> 4140 Manchester Ave. St. Louis, MO 63110 </p>
+	   </header>
+		
+		<nav class="horizontal">
+		   <ul>
+		      <li><a href="index.html">Home</a></li>
+			  <li><a href="menu.html">Menu</a></li>
+			  <li><a href="events.html">Upcoming Events</a></li>
+			  <li><a href="about.html">About Us</a></li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+        <article id="contentstart">
+            <h2>Your form has been submitted!</h2>
+			<p>We will reach out to you as soon as possible to help book your event.</p>
+			
+			    <script>
+				<!--
+                   var formData = location.search;
+                   formData = formData.substring(1, formData.length);
+                   while (formData.indexOf("+") !== -1) {
+                      formData = formData.replace("+", " ");
+                   }
+                   formData = decodeURIComponent(formData);
+                   var formArray = formData.split("&");
+                   for (var i = 0; i < formArray.length; i = i + 1) {
+                      document.write("<p>" + formArray[i] + "</p>");
+                   }
+				   //-->
+                </script>
+               <img src="Assets/Images/AtomicCowboyPanoramic.jpg" alt="Atomic Cowboy Panoramic" width="600" height="200" />
+			   </article>
+			   <footer>
+		   <address>
+		      Atomic Cowboy &#183;
+			  4140 Manchester Ave. &#183;
+			  St. Louis, MO 63110 &#183;
+			  11AM to 3AM
+			  (314)775-0775 &#183;
+			  info@atomic-cowboy.com
+			</address>
+		</footer>
+	</body>
+</html>
