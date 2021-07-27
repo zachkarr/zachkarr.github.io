@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!-- 
+      
+	  Final Project
+	  Author:(Team #1)Zach Karr, Jenny Beezley
+	  Date: 7/19/2021
+	  
+	  Filename:   Contact Us.htm
+	  Supporting files: AtomicCowboyLogo.png, main.css, fstyle.css, formsubmit.js
+	  
+	-->
+	
+	   <meta charset="UTF-8"/>
+	   
+	   <title>Contact Us</title>
+	   <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css"/>
+	   <link href="Assets/Styles/fstyle.css" rel="stylesheet" type="text/css"/>
+	   <script src="modernizr.custom.40753.js"></script>
+	   
+	   
+	</head>
+	
+	<body>
+	
+	   <header>
+	      	<img src="Assets/Images/AtomicCowboyLogo.png" alt="Atomic Cowboy" width="600" height="400" /> 
+			<p> 4140 Manchester Ave. St. Louis, MO 63110 </p>
+	   </header>
+		
+		<nav class="horizontal">
+		   <ul>
+		      <li><a href="index.html">Home</a></li>
+			  <li><a href="menu.html">Menu</a></li>
+			  <li><a href="events.html">Upcoming Events</a></li>
+			  <li><a href="about.html">About Us</a></li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<section id="main">
+		
+		   <h1>Contact Us</h1>
+		   <p>For more information about our private event space, please fill out
+		   the form below. Our Event Manager will typically respond within 2 business days.</p>
+		   
+		   <form id="formData" action ="results.html">
+		   
+		      <fieldset class="contactFields">
+			     <legend>Tanglefoot Saloon</legend>
+				 
+				 <label for="fnameinput">First Name:</label>
+				 <input type="text" id="fnameinput" name="First Name" required="required" />
+				 
+				 <label for="lnameinput">Last Name:</label>
+				 <input type="text" id="lnameinput" name="Last Name" required="required" />
+				 
+				 <label for="phoneinput">Phone:</label>
+				 <input type="tel" id="phoneinput" name="Phone" placeholder="555-555-5555"
+                         required="required" />
+				 
+				 <label for="dateinput">Date:</label>
+				 <input type="text" id="dateinput" name="Date" placeholder="MM/DD/YYYY" required="required" />
+				 
+				 <label for="timeinput">Time:</label>
+				 <input type="text" id="timeinput" name="Time" placeholder="Please Specify AM or PM" required="required" />
+				 
+				 <label for="guestsinput">Number of Guests:</label>
+				 <input type="text" id="guestsinput" name="Guests" required="required" />
+				
+				 <input type="checkbox" id="call" name="Sign Up" />
+			     <label for="call"> Check to sign up for our monthly news letter </label>
+	
+				 <label for="feedback">
+				      Questions or Special Requests:
+					  <textarea id="feedback" name="Feedback" rows="12"></textarea>
+					</label>
+			    </fieldset>
+			
+	
+			<input type="submit" value="Submit Information" />
+			<input type="reset" value="Cancel" />
+		</form>
+		</section>
+		<footer>
+		   <address>
+		      Atomic Cowboy &#183;
+			  4140 Manchester Ave. &#183;
+			  St. Louis, MO 63110 &#183;
+			  11AM to 3AM
+			  (314)775-0775 &#183;
+			  info@atomic-cowboy.com
+			</address>
+		</footer>
+	</body>
+</html>
