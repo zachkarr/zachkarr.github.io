@@ -1,0 +1,15 @@
+/* 
+   Final Project
+   Author:(Team #1)Zach Karr, Jenny Beezley
+   Date: 7/19/2021
+   Filename: astyle.css
+   Supporting Files:
+   
+*/
+
+/* Audio Styles */
+audio, object, embed {
+	display: block;
+	margin: 15px auto;
+	background-color: rgb(158, 15, 5);
+}

@@ -1,0 +1,153 @@
+/* 
+      Final Project
+	  Author:(Team #1)Zach Karr, Jenny Beezley
+	  Date: 7/19/2021
+   
+   Filename: fstyle.css
+   Supporting Files: go.png, stop.png
+   
+*/ 
+
+/* Field set styles */
+fieldset {
+	background-color: rgb(10, 10, 10);
+	border: 1px solid rgb(214, 138, 15);
+	margin: 10px 0px 10px 2.5%;
+	width: 95%;
+}
+
+legend {
+	background-color: rgb(158, 15, 5);
+	color: white;
+	padding: 5px;
+}
+
+/* label styles */
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	color: white;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+	background-color: rgb(70, 74, 71);
+}
+
+/* input control styles */
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+	background-color: rgb(70, 74, 71);
+}
+
+/* selection list styles */
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+}
+
+
+/* checkbox styles */
+input#call {
+	margin-left: 200px;
+	width: 45px;
+}
+
+input#call+label {
+	clear: none;
+	width: 240px;
+}
+
+/* button styles */
+input[type="submit"] {
+	clear: left;
+	
+}
+
+/* checkbox styles */
+input#call {
+	clear: left;
+	width: 25px;
+}
+
+input#call+label {
+	clear: none;
+	width: auto;
+}
+
+input[type="submit"], input[type="reset"] {
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	color: white;
+}
+
+/* validation styles */
+input:focus, select:focus {
+	background-color: white;
+}
+
+input:focus:valid {
+	background: rgb(220, 255, 220) url(go.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid {
+	background: rgb(255, 232, 233) url(stop.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+#feedback {
+	width: 98%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+textarea {
+	border: 1px solid #777;
+	padding: 0.2em;
+	font-size: 1em;
+	color: white;
+	background-color: rgb(48, 45, 45);
+}
+
+.contactinfo input {
+	position: absolute;
+	left: 6em;
+}
+#fName, #lName {
+	width: 20em;
+}
+#phone, #date, #time, #guests {
+	width: 26em;
+}
+#feedback {
+	width: 246%;
+	display: block;
+}
+#submit {
+	border: 1px solid #999;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #c8f098;
+	border-radius: 0.5em;
+}
+
+script {
+	display:none;
+}
