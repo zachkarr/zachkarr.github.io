@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!-- 
+      
+	  Final Project
+	  Author:(Team #1)Zach Karr, Jenny Beezley
+	  Date: 7/19/2021
+	  
+	  Filename:   index.htm
+	  Supporting files: AtomicCowboyLogo.png, AtomicCowboyPanoramic.jpg, AtomicCowboyBar.jpg, AtomicCowboyFront2.jpg, 
+	  AtomicCowboyInside.jpg, AtomicCowboyBar2.jpg, main.css, scripts.js
+	  
+	-->
+	
+	   <meta charset="UTF-8"/>
+	   
+	   <title>Home</title>
+	   
+	   <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+	   
+	   
+	   
+	</head>
+	
+	<body>
+	
+	   <header>
+	      <img src="Assets/Images/AtomicCowboyLogo.png" alt="Atomic Cowboy" width="600" height="400" /> 
+		  <p> 4140 Manchester Ave. St. Louis, MO 63110 </p>
+	    </header>
+		
+		<nav class="horizontal">
+		   <ul>
+		      <li><a href="index.html">Home</a></li>
+			  <li><a href="menu.html">Menu</a></li>
+			  <li><a href="events.html">Upcoming Events</a></li>
+			  <li><a href="about.html">About Us</a></li>
+			  <li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<section id="main">
+		     <br/>
+		   <h1>Atomic Cowboy</h1>
+			  
+		   <img src="Assets/Images/AtomicCowboyPanoramic.jpg" alt="Atomic Cowboy Panoramic" width="600" height="200" />
+		   <h2>Food &#183; Spirits &#183; Music</h2>
+		   <p> Located in the heart of the Grove, Atomic Cowboy has been a staple of the 
+		   St. Louis community since 2005.
+		   For more information about our menu, upcoming events, and our private event space,
+		   please check out the links above.</p>
+		   <br/>
+		   
+		<div class="slideshow-container fade">
+		   
+		 <div class="Containers">
+		   <img src="Assets/Images/AtomicCowboyBar.jpg" alt="bar" width="600" height="400" />
+	     </div>
+		 
+		 <div class="Containers">
+		    <img src="Assets/Images/AtomicCowboyFront2.jpg" alt="front" width="600" height="400" />
+	     </div>
+		 
+		 <div class="Containers">
+		   <img src="Assets/Images/AtomicCowboyInside.jpg" alt="inside" width="600" height="400" />
+	     </div>
+		 
+		 <div class="Containers">
+		   <img src="Assets/Images/AtomicCowboyBar2.jpg" alt="bar two" width="600" height="400" />
+	     </div>
+		   
+		 <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+		 <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        </div> 
+        <br>
+		
+		<div style="text-align:center">
+           <span class="dots" onclick="currentSlide(1)"></span>
+           <span class="dots" onclick="currentSlide(2)"></span>
+           <span class="dots" onclick="currentSlide(3)"></span>
+        </div> 
+				
+		
+		   <br/>
+		</section>
+		<script src="Assets/JavaScripts/scripts.js"></script>
+		<footer>
+		   <address>
+		      Atomic Cowboy &#183;
+			  4140 Manchester Ave. &#183;
+			  St. Louis, MO 63110 &#183;
+			  11AM to 3AM
+			  (314)775-0775 &#183;
+			  info@atomic-cowboy.com
+			</address>
+		</footer>
+	</body>
+</html>
